@@ -1,25 +1,30 @@
 html{
   background-color:black;
-  color:black;
-  font-family:Lora;
+  font-family:'Lora', serif;
   font-size: 16px;
 }
 body{
   color:pink;
 }
 nav{
-  background-color: lavender;
   display:flex;
-  color:white;
-  justify-content:flex-end;
+  background-color: lavender;
+  color:lightpink;
+  justify-content:space-between;
+  height:auto;
+  width:100%;
+}
+nav .logo {
+  display:flex;
+  font-family:'Dancing Script', cursive, bold;
+  color:lightpink;
+  font-size:3rem;
 }
 nav ul{
   display:flex;
-  justify-content: center;
-  margin:2rem;
   list-style-type: none;
-  font-size:1rem;
-
+  font-size:1.25rem;
+  font-family:'Quattrocento',serif;
 }
 nav ul li{
   margin:1rem;
@@ -28,10 +33,11 @@ nav ul li{
 .main-container{
 display:flex;
 justify-content: center;
+margin-top:1rem;
 }
 
 .main-container img{
-  width:80%;
+  width:60%;
   height:675px;
 
 }
