@@ -159,3 +159,20 @@ h1, h2, h3{
 h4{
   margin:0;
 }
+@media only screen and (max-width:480px){
+  nav{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .main-container img{
+    width:100%;
+  }
+  .about-ceceanalex-container{
+    flex-flow:column;
+    border:none;
+  }
+  .about-staff-container{
+    margin-left:2rem;
+    margin-right:2rem;
+  }
+}
