@@ -43,7 +43,7 @@ nav li a:active{
 
 .main-container{
 display:flex;
-justify-content: center;
+flex-flow:column;
 margin-top:1rem;
 }
 
@@ -51,7 +51,6 @@ margin-top:1rem;
   width:60%;
   height:675px;
   margin:2rem;
-
 }
 nav a{
  color:lightpink;
@@ -64,6 +63,23 @@ nav a{
 }
 .about-staff-container a:hover{
   color:rgb(235,173,214);
+}
+.mainimages{
+  flex-flow:row;
+  margin:2rem;
+  align-items:center;
+
+}
+.mainimages img{
+  width:25%;
+  height:auto;
+
+}
+.first-row,
+.second-row{
+  display:flex;
+  align-items: center;
+
 }
 
 #services{
@@ -120,12 +136,23 @@ text-decoration:none;
 flex-flow:row;
 margin:1rem;
 }
+
+.contact-container ul li a:hover {
+  color:rgb(235,173,214);
+}
+
+.contact-container ul li a:link{
+  color:rgb(220, 111, 184);
+}
+
+.contact-container ul li a:visited{
+  color:rgb(184, 46, 138);
+}
 .about-ceceanalex-container{
   text-align:center;
   margin:2rem;
   line-height:125%;
   justify-content: space-around;
-  border:5px solid black;
   display:flex;
   flex-flow:row;
   align-items:center;
@@ -152,13 +179,21 @@ margin:1rem;
 .info{
   margin:1rem;
 }
+h1{
+  font-size:5rem;
+}
+h2{
 
+}
 h1, h2, h3{
   font-family:Lato;
 }
 h4{
   margin:0;
+  font-size:1.2rem;
 }
+
+
 @media only screen and (max-width:1080px){
   nav{
     display:flex;
@@ -175,4 +210,7 @@ h4{
     margin-left:2rem;
     margin-right:2rem;
   }
+body{
+  font-size:2rem;
+}
 }
