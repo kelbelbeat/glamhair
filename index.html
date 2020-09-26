@@ -15,7 +15,7 @@
 
 <!-- Navigation Bar -->
   <body style="font-family:Didact Gothic;">
-    <nav style="display:flex;">
+    <nav>
     <div class="logo">
       <a> glamhairbyceceanalex </a>
     </div>
@@ -42,42 +42,85 @@
         </div>
     </div>
     </div>
-    </! The Services Section/>
+    <!-- The Services Section-->
 <div class="text-container">
+  <!--text container holds blue background-->
     <div id="services">
       <h1>Services</h1>
+      <div class="package-container">
       <div class="package one">
-        <h2> Beautiful Bride Package #1 - $250</h2>
+        <h2> <center>Beautiful Bride Package #1</center></h2>
+        <h3><center>$270</center></h3>
         <h4> Includes Hair and Makeup trial, thorough consultations and day of hair and makeup for bride only</h4>
       </div>
       <div class="package two">
-        <h2> Beautiful Bride Package #2 - $220 </h2>
-        <h4> Includes Hair and Makeup trial and consultation with a discount of $30 off for the bride-to-be (must have at least 2-3 bridesmaids and/or family members up or down style of event.)</h4>
-      </div>
-      <div class="package three">
-        <h2> Friends and Family </h2>
-        <h4> Hair $60-$75 depending on length and hair style. Makeup $65 </h4>
+        <h2><center>Beautiful Bride Package #2</center></h2>
+        <h3><center>$240</center></h2>
+        <h4> Includes Hair and Makeup trial and consultation (must have at least 2-3 bridesmaids and/or family members up or down style of event.)</h4>
       </div>
       <div class="package four">
-        <h2> My Big Beautiful Wedding Package </h2>
-        <h4> Best discount over all for the whole party! The bride receives hair and makeup discount of $50 off! Making her price $200 for trials, consultation and day of hair and makeup. Each bridesmaid or family member receives discount of $10 off making their price $115 (Only available for bridal party of 5 or more people)</h4>
+        <h2><center> My Big Beautiful Wedding Package</center></h2>
+        <h3><center> Discounts </center></h3>
+        <h4> Best discount over all for the whole party! The bride receives hair and makeup discount of $50 off! Including consultation and day of hair and makeup. Each bridesmaid or family member receives discount of $10 (Only available for bridal party of 5 or more people)</h4>
       </div>
+      <div class="package five">
+        <h2><center> Brazilian Blow Out</center></h2>
+        <h3><center>$150+</center></h3>
+        <h4> Call for appointment for your free consultation, price will vary depending on hair type and length</h4>
+     </div>
+      <div class="package three">
+        <h2><center>Individual Hair Styling</center></h2>
+        <h3><center>$65-$80</center></h3>
+        <h4>Depending on hair length and style</h4>
+      </div>
+      <div class="package four">
+        <h2><center> Makeup</center></h2>
+        <h3><center>$70</center></h3>
+        <h4> Full glamour makeup</h4>
+      </div>
+
+     </div> 
     </div>
 
-
+<!-- Events Section -->
     <div id="events">
       <h1> Events </h1>
-      <div class="box-one">
+<div class="box-three">
+      <h2><center> SPA DAY ANNOUNCED!!!</center> </h2>
+      <img src="./resources/images/IMG_1645.jpg"/>
+      <h2><center> Book your Appointment</center></h2>
+    <button class="accordion"><a
+      href="javascript:void(
+        window.open(
+          'https://form.jotform.com/81166093721152',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'
+        )
+      )
+    ">
+      Reserve
+    </a> </button>
+  </div>
+</br>
+
+    <h3> <center>When your day, week, month becomes a blur of events - relax! <span>Treat yourself</span> and your friends.</center> </h3>
+      <h3><center>Book your own personal spa day for you and your friends! <a href=#contact> Click for contact info  </a>  </center></h3>
+      <div class="box-two">
+        <img src="./resources/images/IMG_3371 copy.JPG"/>
+    <!--  <div class="box-one">
         <img src="./resources/images/spa.jpg"/>
-      </div>
+      </div> -->
     </div>
 
     <div id="about-us">
       <h1> About Us </h1>
       <div class="about-ceceanalex-container">
-      <div class="image-container">
+       <div class="image-container">
         <img src="./resources/images/ceceanalex.jpg"/>
-      </div>
+       </div>
       <div class="ceceanalex-info">
       <h2>Alex and Crystal</h2>
       <h3>Glam Team</h3>
@@ -88,6 +131,22 @@
       </h4>
     </div>
       </div>
+      <!--<script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                  panel.style.display = "none";
+              } else {
+                  panel.style.display = "block";
+              }
+          });
+      }
+      </script> -->
       </div>
 
       <div class="about-staff-container">
@@ -102,8 +161,8 @@
             </div>
         </div>
         <div class="lori info">
-          <h2>Lori <h2>
-          <h3>Esthetician </h3>  
+          <h2>Lori Monterosa <h2>
+          <h3>Esthetician </h3>
           <h3>Instagram:<a href="https://www.instagram.com/faceglamour_for_you"> faceglamour_for_you</a> </h3>
           <button class="accordion"><h3>About me</h3></button>
           <div class="panel">
@@ -121,40 +180,44 @@
           </h4>
         </div>
         </div>
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+        </script>
       </div>
     </div>
     </div>
 
-</div>
-  <div id="contact">
+<!--  /div -->
 
-    <h1> Contact </h1>
+  <div id="contact">
+    <h1> Contact Us!</h1>
     <div class="contact-container">
       <ul>
     <li>Phone:(818)812-0594</li>
     <li>LA location Phone:(661)373-8357</li>
     <li>Email: grmd.glam@gmail.com</li>
-    <li>Instagram: <a href="https://www.instagram.com/glamhairbyceceanalex"> glamhairbyceceanalex </a> </li>
+    <li><i>Follow</i> Us on Instagram: <a href="https://www.instagram.com/glamhairbyceceanalex"> glamhairbyceceanalex </a> </li>
       </ul>
     </div>
-  </div>
 
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    });
-}
-</script>
+<div>
+<!-- SnapWidget -->
+<script src="https://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="https://snapwidget.com/embed/531691" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+</div>
 
   </body>
 </html>
